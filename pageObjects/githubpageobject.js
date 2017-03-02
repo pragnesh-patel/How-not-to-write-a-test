@@ -15,6 +15,7 @@ var GitHubPageObject = function(driver) {
   this.get = function(webaddress) {
     //setup implicit wait and wait for elements on the page to load
     driver.manage().timeouts().implicitlyWait(30 * 1000);
+    driver.manage().timeouts().pageLoadTimeout(5000);
     return driver.get(webaddress);
         
   };
