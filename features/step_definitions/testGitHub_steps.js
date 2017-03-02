@@ -52,7 +52,7 @@ defineSupportCode(function({Given, When, Then}) {
     Then('I should see the {username:stringInDoubleQuotes} name in the request body', function (username, callback) {
          // Write code here that turns the phrase above into concrete actions
        
-         expect(bodyObj.name).to.equal("photobox");
+         expect(bodyObj.name).to.equal(username);
          callback(null, 'done');
     });
 
