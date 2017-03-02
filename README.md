@@ -24,5 +24,6 @@ To run GitHub UI test : ./node_modules/.bin/cucumber-js --tags=@gitui
 
 To run GitHub API test: ./node_modules/.bin/cucumber-js --tags=@gitapi
 
+It took about an hour to do, but needed more time to get the API testing right.
 
 Note: I have attempted the API test but it does not work, looking to find out where I was going wrong.
